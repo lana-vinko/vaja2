@@ -9,3 +9,9 @@ vsota = 0
 for i in range (8):
     vsota = vsota + seznam[i]
 print("povp. vrednost: ", vsota/8)
+#3. naloga
+najvecje = 0
+for i in range (8):
+    if seznam[i]>najvecje:
+        najvecje = seznam[i]
+print("najvecja vrednost: ", najvecje)
