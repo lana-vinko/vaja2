@@ -3,6 +3,9 @@ seznam = [12, 5, 8, 21, 3, 16, 9, 14]
 vsota = 0
 for i in range(8):
     vsota = vsota + seznam[i]
-print(vsota)
-
-    
+print("vsota: ", vsota)
+#2. naloga
+vsota = 0
+for i in range (8):
+    vsota = vsota + seznam[i]
+print("povp. vrednost: ", vsota/8)
