@@ -21,3 +21,9 @@ for i in range(8):
     if seznam[i]<najmanjse:
         najmanjse = seznam[i]
 print("najmenjse stevilo: ", najmanjse)
+#5. naloga
+vs = 0
+for i in range (8):
+    if seznam[i]%2 ==0:
+        vs +=1
+print("stevilo sodih: ", vs)
