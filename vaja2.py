@@ -15,3 +15,9 @@ for i in range (8):
     if seznam[i]>najvecje:
         najvecje = seznam[i]
 print("najvecja vrednost: ", najvecje)
+#4. naloga
+najmanjse = 100
+for i in range(8):
+    if seznam[i]<najmanjse:
+        najmanjse = seznam[i]
+print("najmenjse stevilo: ", najmanjse)
