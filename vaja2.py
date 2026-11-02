@@ -27,3 +27,14 @@ for i in range (8):
     if seznam[i]%2 ==0:
         vs +=1
 print("stevilo sodih: ", vs)
+#6. naloga
+v = 0
+for i in range (8):
+    if seznam[i]%2 != 0:
+        v +=1
+print("stevilo lihih: ", vs)
+#7. naloga
+print("stevila vecja od 10:")
+for i in range(8):
+    if seznam[i]>10:
+        print(seznam[i], " ", end = "")
