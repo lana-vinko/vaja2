@@ -41,3 +41,8 @@ for i in range(8):
 #8. naloga
 seznam.sort()
 print(seznam)
+#9. naloga
+a = input("vnesi stevilko: ")
+seznam.append(a)
+print(seznam)
+
