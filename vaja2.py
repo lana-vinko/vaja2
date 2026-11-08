@@ -38,3 +38,6 @@ print("stevila vecja od 10:")
 for i in range(8):
     if seznam[i]>10:
         print(seznam[i], " ", end = "")
+#8. naloga
+seznam.sort()
+print(seznam)
