@@ -45,4 +45,17 @@ print(seznam)
 a = input("vnesi stevilko: ")
 seznam.append(a)
 print(seznam)
+#10. naloga
+b = input("vnesi stevilo za odstranitev: ")
+najdeno = false
+for i in range (9):
+    if seznam[i] == b:
+        seznam.remove(b)
+        najdeno = true
+        break
+if najdeno==false:
+    print("ni bilo števila v seznamu.")
+else:
+    print("stevilo je bilo izbrisano iz seznama.")
+
 
